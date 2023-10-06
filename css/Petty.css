@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*seccion de encabezado*/
+
+.encabezado{
+    background-color:rgba(222, 240, 246, 0.928);
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+.Logo{
+    width: 200px;
+    margin: 20px 0;
+}
+.navegacion{
+    display: flex;
+    /*gap: 20px */
+}
+.enlace{
+    color: lightslategrey;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.enlace:hover{
+    color: rgb(213, 217, 150);  
+}
+
+/*seccion de publicidad*/
+.publicidad{
+background-color:white;
+max-width: 1600px;
+}   
+
+.contenedor{
+max-width: 1000px;
+margin: 0 auto;
+width: 90%;
+}
+
+.Banner{
+    width: 100%;
+}
+
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color:lightslategray;
+    margin: 20px 0;
+}
+
+/* Servicios*/
+.titulo-Servicios{
+font-size: 46px;
+text-align: center;
+color: lightslategray;
+}
+
+.Servicio{
+    background-color:rgba(222, 240, 246, 0.928) ;
+}
+
+.ArreglodeUnas{
+    background-color:rgba(222, 240, 246, 0.928)
+}
+
+.Masajes{
+    background-color:rgba(222, 240, 246, 0.928)
+}
+
