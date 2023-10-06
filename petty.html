@@ -18,24 +18,18 @@
             <a class="enlace" href="#Contacto">Contacto</a>
         </nav>
     </header>
-    <section class="publicidad">
-        <div class="contenedor">
-            <img class="Banner" src="./assets/imagenes/Banner.png" alt="Banner" />
-            <h1 class="titulo">¡los mejores servicios a tu medida!</h1>
-        </div>
-    </section>
+    
     <main id="Home" class="seccion-Servicios contenedor">
         <h2 class="titulo-Servicios"> Servicios</h2>
         <div class="Listado-Servicios">
-
-            <article class="Servicio">
-                <img
+            <article class="Servicio-Maquillaje">
+              <img
                 class="Maquillaje-imagen"
                  src="./assets/imagenes/Maquillaje.jpg" 
                  alt="Maquillaje" />
-                <div class="Maquillaje-texto">
 
-                    <h3 class="Maquillaje-Titulo">Maquillaje</h3>
+                <div class="Maquillaje-texto">
+                 <h3 class="Maquillaje-Titulo">Maquillaje</h3>
                     <p class="Maquillaje-Descripcion"> Sin salir de casa preparada para tus eventos de gran importancia,
                         Look a tu gusto, de día o de noche de la mano de personal experto.
                         </p>
@@ -46,8 +40,6 @@
                 <img class="ArreglodeUnas"
                 src="./assets/imagenes/Arreglo de Unas.jpg"
                  alt="ArreglodeUnas" />
-                
-
                 <div class="texto-ArreglodeUnas ">
                     <h3 class="ArreglodeUnas-Titulo">Arreglo de Uñas</h3>
                     <p class="ArreglodeUnas-Descripcion"> El atuendo perfecto requiere las uñas perfectas, en PEETY,
@@ -55,55 +47,51 @@
                         mejores productos del mercado y tecnicas de innovacion.
                     </p>
                 </div>
-            </article>
-<article class="Masajes">
+             </article>
+
+
+         <article class="Masajes">
         <img class="Masajes"
         src="./assets/imagenes/Masajes.jpg" 
         alt="Masajes">
-
         <div class="texto-Masajes">
             <h3 class="Masajes-Titulo">Masajes</h3>
             <p class="Masajes-Descripcion"> Una excelente opcion de relajacion y tranquilidad,
                 ¡contamos las mejores manos a tu disposicion!
             </p>
         </div>
-</article>
-            
-
-                </div>
-        </article>
-        <section class="Descuentos">
-            <div class="Descuentos">
-                <h2 class="titulo-Descuentos"> Descuentos</h2>
-                <article class="Listado-Descuentos">
-                    <article class="Depilacion">
-
-                        <div class="texto-Descuentos">
-
-                            <h3>Depilacion</h3>
-                            <p> Obtienes un 20% de descuento en cada referido que,
-                                recomiendes a PETTY en la zona de depilacion,
-                                que elijan nuestas clientes.</p>
-                            <img src="./assets/imagenes/Depilacion.jpg" alt="Depilacion">
-                        </div>
-                    </article>
-
-                    <div class="Productos Maquillaje">
-
-                        <div class="texto Productos Maquillaje">
-                            <h3>Productos Maquillaje</h3>
-                            <p> Estamos muy felices de tenerte con nosotros,
-                                por cada servicio agendado acumulas bonos del 10%, con estos bonos,
-                                te puedelles llevar acumulando este set de maquillaje.
-
-                                <img src="./assets/imagenes/Productos Maquillaje.jpg" alt="Productos Maquillaje">
-                            </p>
-
-                        </div>
-                </article>
+     </article>
+            </div>
+          </article>
         </section>
 
-        <section id="Contacto" class="sobre nosotros">
+        <section class="publicidad">
+            <div class="contenedor">
+                <img class="Banner" src="./assets/imagenes/Banner.png" alt="Banner" />
+                <h1 class="titulo">¡los mejores servicios a tu medida!</h1>
+            </div>
+        </section>
+
+   
+
+<main id="Home" class="seccion-Descuentos contenedor">
+<h2 class="titulo-Descuentos"> Descuentos</h2>
+ <div class="Listado-Descuentos">
+<section Descuentos>
+<div class="contenedor" >
+    <div class="card text-bg-dark">
+        <img src="./assets/imagenes/Productos Maquillaje.jpg" class="card-img" alt="Productos Maquillaje">
+        <div class="card-img-overlay">
+          <h5 class="Productos-title">Productos Maquillaje</h5>
+          <p class="Productos-text">Obten descuentos del 10%, en productos de maquillje, servicios de Maquilaje,  con solo referir a tus recomendados.</p>
+          <p class="Productos-text"><small>¡No te lo puedes perder!
+             Sujeto a terminos y condiciones.</small></p>
+        </div>
+      </div>
+</div>
+</section>
+
+        <section id="Contacto" class="Sobre-Nosotros">
             <div class="contenedor sobre-nosotros">
                 <div class="texto-nosotros">
                     <h2>Contacto</h2>
@@ -111,7 +99,7 @@
                     <form class="formulario-contacto">
                         <label for="servicio">nombre del servicio</label>
                         <input type="servicio" placeholder="nombre del servicio" required>
-                        <button type="Agenda tu servicio"></button>
+                        <button type="submit" value="AgendarServicio" name="Agendar">Agenda Tu Servicio</button>
                     </form>
                 </div>
             </div>
