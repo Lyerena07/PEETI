@@ -78,3 +78,10 @@ color: lightslategray;
     background-color:rgba(222, 240, 246, 0.928)
 }
 
+/* Descuentos*/
+
+.titulo-Descuentos{
+font-size: 46px;
+text-align: center;
+color: lightslategray;
+}
