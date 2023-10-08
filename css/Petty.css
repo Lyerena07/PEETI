@@ -167,14 +167,22 @@ margin: 20px;
     font-size: 20px;
 }
 
+.Productos-text{
+    text-align: center;
+    padding: 1rem;
+    color: lightslategrey;
+    font-size: 20px;
+}
+
+
 /* contacto*/
 .Sobre-Nosotros{
     margin-top: 5rem;
-    background-image: linear-gradient(to right, transparent 50%, #c5e0f7 50%, #302c2f 100% ),url(../assets/imagenes/Productos\ .jpg);
+    background-image: linear-gradient(to right, transparent 50%, #c5e0f7 50%, #fac6ed 100% ),url(../assets/imagenes/Productos\ Maquillaje.jpg);
     background-position: left center;
-    padding: 10rem 0;
+    padding: 10rem  0;
     background-repeat: no-repeat;
-    background-size: 100%, 120rem;
+    background-size: 100%, 80rem;
 }
 
 .texto-nosotros{
@@ -225,6 +233,9 @@ margin: 20px;
     margin-inline-end: 0px;
    
 }
+
+
+
 
 @media ((min-width: 320px) and (max-width: 600px)) {
     *{
@@ -390,6 +401,13 @@ margin: 20px;
         }
     
         .Productos-title{
+        text-align: center;
+        padding: 1rem;
+        color: lightslategrey;
+        font-size: 20px;
+    }
+    
+    .Productos-text{
         text-align: center;
         padding: 1rem;
         color: lightslategrey;
